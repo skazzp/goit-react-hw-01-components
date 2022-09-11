@@ -1,0 +1,35 @@
+.transaction-history {
+  display: block;
+  width: 370px;
+  margin: 50px;
+  padding: 10px;
+}
+tr {
+  width: 100%;
+  display: flex;
+}
+.strEven {
+  background-color: rgba(175, 177, 175, 0.473);
+}
+thead,
+tbody {
+  display: block;
+}
+th {
+  display: block;
+  width: calc(100% / 3);
+  text-align: center;
+  padding: 5px;
+  background-color: #008cff;
+  color: azure;
+  border: 1px dashed gray;
+  border-collapse: collapse;
+}
+td {
+  display: block;
+  width: calc(100% / 3);
+  text-align: center;
+  padding: 5px;
+  border: 1px dashed gray;
+  border-collapse: collapse;
+}
